@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  /* Background Image */
+  background: url("image1.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+form input, form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  background: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #2980b9;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  background: #ecf0f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  background: #dcdde1;
+}
+
+#timeline {
+  margin-top: 20px;
+}
+
+.timeline-item {
+  background: #8e44ad;
+  color: white;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 6px;
+}
